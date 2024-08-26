@@ -1110,9 +1110,9 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Molecule",
+            "name": "Side Brace",
             "x": 0.38293650793650796,
-            "y": 0.9136490250696379,
+            "y": 0.8941504178272981,
             "uniqueID": 1724646572265,
             "ioValues": [
                 {
@@ -1137,9 +1137,126 @@
                     "y": 0.6044568245125348,
                     "uniqueID": 1724646572093,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.4107142857142857,
+                    "y": 0.40111420612813375,
+                    "uniqueID": 1724646680754,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724646725487
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": -885.82
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.22420634920634921,
+                    "y": 0.5933147632311978,
+                    "uniqueID": 1724646692554,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 17
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 812.8
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.32605820105820105,
+                    "y": 0.6601671309192201,
+                    "uniqueID": 1724646725487,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724646692554
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 8.5
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "W/2",
+                    "x": 0.23677248677248677,
+                    "y": 0.3537604456824513,
+                    "uniqueID": 1724646728105,
+                    "ioValues": [
+                        {
+                            "name": "W",
+                            "ioValue": 17
+                        }
+                    ],
+                    "currentEquation": "W/2"
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x length",
+                    "ap2Primary": false,
+                    "ap1ID": 1724646572093,
+                    "ap2ID": 1724646692554
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap2Primary": false,
+                    "ap1ID": 1724646572093,
+                    "ap2ID": 1724646728105
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1724646692554,
+                    "ap2ID": 1724646725487
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1724646725487,
+                    "ap2ID": 1724646680754
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1724646728105,
+                    "ap2ID": 1724646725487
+                }
+            ],
             "fileTypeVersion": 1,
             "compiledBom": {}
         }
