@@ -737,8 +737,8 @@
                             "ioValue": 1724646156653
                         },
                         {
-                            "name": "3D shape 5",
-                            "ioValue": 1724645607701
+                            "name": "3D shape 6",
+                            "ioValue": 1724646012172
                         }
                     ],
                     "unionType": "Assembly"
@@ -933,13 +933,6 @@
                     "ap2ID": 1724646012172
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 5",
-                    "ap2Primary": false,
-                    "ap1ID": 1724645607701,
-                    "ap2ID": 1724645962613
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -952,6 +945,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1724645962613,
                     "ap2ID": 1724644914247
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 6",
+                    "ap2Primary": false,
+                    "ap1ID": 1724646012172,
+                    "ap2ID": 1724645962613
                 },
                 {
                     "ap1Name": "geometry",
@@ -1049,6 +1049,39 @@
                     "ioValue": 0
                 }
             ]
+        },
+        {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.666005291005291,
+            "y": 0.6768802228412256,
+            "uniqueID": 1724646329757,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1724645069985
+                },
+                {
+                    "name": "Material Thickness",
+                    "ioValue": 19
+                },
+                {
+                    "name": "Sheet Width",
+                    "ioValue": 2438
+                },
+                {
+                    "name": "Sheet Height",
+                    "ioValue": 1219
+                },
+                {
+                    "name": "Part Padding",
+                    "ioValue": 6
+                },
+                {
+                    "name": "Sheet Padding",
+                    "ioValue": 76
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -1093,6 +1126,13 @@
             "ap2Primary": false,
             "ap1ID": 1724645069985,
             "ap2ID": 1724644615118
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1724645069985,
+            "ap2ID": 1724646329757
         },
         {
             "ap1Name": "geometry",
