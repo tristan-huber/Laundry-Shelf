@@ -23,8 +23,8 @@
         {
             "atomType": "Molecule",
             "name": "Shelf",
-            "x": 0.25,
-            "y": 0.3537604456824513,
+            "x": 0.31746031746031744,
+            "y": 0.26740947075208915,
             "uniqueID": 1724644623215,
             "ioValues": [
                 {
@@ -40,7 +40,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1724644622942,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1724644807419
+                        }
+                    ]
                 },
                 {
                     "atomType": "Rectangle",
@@ -99,10 +104,17 @@
                     "ap2Primary": false,
                     "ap1ID": 1724644720937,
                     "ap2ID": 1724644807419
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1724644807419,
+                    "ap2ID": 1724644622942
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": {}
+            "compiledBom": []
         },
         {
             "atomType": "Input",
@@ -111,6 +123,58 @@
             "y": 0.6044568245125348,
             "uniqueID": 1724644791354,
             "ioValues": []
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Cross Brace",
+            "x": 0.3115079365079365,
+            "y": 0.7214484679665739,
+            "uniqueID": 1724644914121,
+            "ioValues": [
+                {
+                    "name": "Wood Thickness",
+                    "ioValue": 17
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1724644914247,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Wood Thickness",
+                    "x": 0.013333333333333334,
+                    "y": 0.6044568245125348,
+                    "uniqueID": 1724644914780,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.2969576719576719,
+                    "y": 0.5571030640668524,
+                    "uniqueID": 1724644974080,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [
@@ -120,6 +184,13 @@
             "ap2Primary": false,
             "ap1ID": 1724644791354,
             "ap2ID": 1724644623215
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Wood Thickness",
+            "ap2Primary": false,
+            "ap1ID": 1724644791354,
+            "ap2ID": 1724644914121
         }
     ],
     "unitsKey": "MM",
