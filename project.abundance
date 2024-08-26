@@ -55,8 +55,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.18783068783068782,
-                    "y": 0.26740947075208915,
+                    "x": 0.18849206349206352,
+                    "y": 0.2813370473537604,
                     "uniqueID": 1724644642151,
                     "ioValues": [
                         {
@@ -1070,7 +1070,7 @@
                 },
                 {
                     "name": "Sheet Width",
-                    "ioValue": 2438
+                    "ioValue": 1800
                 },
                 {
                     "name": "Sheet Height",
@@ -1082,7 +1082,7 @@
                 },
                 {
                     "name": "Sheet Padding",
-                    "ioValue": 50
+                    "ioValue": 1
                 }
             ]
         },
