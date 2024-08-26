@@ -1017,6 +1017,14 @@
                 {
                     "name": "3D shape 5",
                     "ioValue": 1724646572265
+                },
+                {
+                    "name": "3D shape 6",
+                    "ioValue": 1724645091219
+                },
+                {
+                    "name": "3D shape 7",
+                    "ioValue": 1724645097526
                 }
             ],
             "unionType": "Assembly"
@@ -1380,6 +1388,41 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": []
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Back Brace",
+            "x": 0.289021164021164,
+            "y": 0.11977715877437325,
+            "uniqueID": 1724646994017,
+            "ioValues": [
+                {
+                    "name": "Wood Thickness",
+                    "ioValue": 17
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1724646994252,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Wood Thickness",
+                    "x": 0.013333333333333334,
+                    "y": 0.6044568245125348,
+                    "uniqueID": 1724646993953,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [
@@ -1412,6 +1455,13 @@
             "ap2ID": 1724646572265
         },
         {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Wood Thickness",
+            "ap2Primary": false,
+            "ap1ID": 1724644791354,
+            "ap2ID": 1724646994017
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
@@ -1439,7 +1489,20 @@
             "ap1ID": 1724645069985,
             "ap2ID": 1724646329757
         },
-        null,
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 6",
+            "ap2Primary": false,
+            "ap1ID": 1724645091219,
+            "ap2ID": 1724645069985
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 7",
+            "ap2Primary": false,
+            "ap1ID": 1724645097526,
+            "ap2ID": 1724645069985
+        },
         {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 5",
