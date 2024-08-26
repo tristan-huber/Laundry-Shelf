@@ -18,7 +18,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1724644615118,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1724645069985
+                }
+            ]
         },
         {
             "atomType": "Molecule",
@@ -230,6 +235,14 @@
                 {
                     "name": "3D shape 1",
                     "ioValue": 1724644623215
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": 1724645091219
+                },
+                {
+                    "name": "3D shape 4",
+                    "ioValue": 1724645097526
                 }
             ],
             "unionType": "Assembly"
@@ -237,13 +250,13 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.4748677248677248,
-            "y": 0.7381615598885795,
+            "x": 0.4378306878306878,
+            "y": 0.5543175487465182,
             "uniqueID": 1724645091219,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": ""
+                    "ioValue": 1724644914121
                 },
                 {
                     "name": "xDist",
@@ -251,7 +264,32 @@
                 },
                 {
                     "name": "yDist",
+                    "ioValue": -150
+                },
+                {
+                    "name": "zDist",
                     "ioValue": 0
+                }
+            ]
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.5185185185185185,
+            "y": 0.777158774373259,
+            "uniqueID": 1724645097526,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1724644914121
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 150
                 },
                 {
                     "name": "zDist",
@@ -281,10 +319,45 @@
             "ap2Primary": false,
             "ap1ID": 1724644791354,
             "ap2ID": 1724644914121
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1724644914121,
+            "ap2ID": 1724645091219
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1724644914121,
+            "ap2ID": 1724645097526
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1724645069985,
+            "ap2ID": 1724644615118
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 3",
+            "ap2Primary": false,
+            "ap1ID": 1724645091219,
+            "ap2ID": 1724645069985
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 4",
+            "ap2Primary": false,
+            "ap1ID": 1724645097526,
+            "ap2ID": 1724645069985
         }
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": {},
+    "compiledBom": [],
     "filetypeVersion": 1
 }
