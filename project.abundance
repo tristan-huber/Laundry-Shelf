@@ -621,13 +621,30 @@
                                 },
                                 {
                                     "name": "y-axis degrees",
-                                    "ioValue": 0
+                                    "ioValue": -90
                                 },
                                 {
                                     "name": "z-axis degrees",
                                     "ioValue": 0
                                 }
                             ]
+                        },
+                        {
+                            "atomType": "Tag",
+                            "name": "",
+                            "x": 0.6944444444444444,
+                            "y": 0.42618384401114207,
+                            "uniqueID": 1724646053391,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": ""
+                                }
+                            ],
+                            "tags": [
+                                ""
+                            ],
+                            "cutTag": false
                         }
                     ],
                     "allConnectors": [
@@ -682,7 +699,33 @@
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "compiledBom": {}
+                    "compiledBom": []
+                },
+                {
+                    "atomType": "Join",
+                    "name": "Assembly",
+                    "x": 0.7513227513227513,
+                    "y": 0.23119777158774377,
+                    "uniqueID": 1724645962613,
+                    "ioValues": [],
+                    "unionType": "Assembly"
+                },
+                {
+                    "atomType": "Tag",
+                    "name": "",
+                    "x": 0.7380952380952381,
+                    "y": 0.5738161559888579,
+                    "uniqueID": 1724646012172,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724645607701
+                        }
+                    ],
+                    "tags": [
+                        ""
+                    ],
+                    "cutTag": false
                 }
             ],
             "allConnectors": [
@@ -804,6 +847,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1724645607701,
                     "ap2ID": 1724644914247
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1724645607701,
+                    "ap2ID": 1724646012172
                 }
             ],
             "fileTypeVersion": 1,
