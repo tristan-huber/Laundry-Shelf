@@ -4,7 +4,12 @@
     "x": 0,
     "y": 0,
     "uniqueID": 1724644590225,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "Wood Thickness",
+            "ioValue": 17
+        }
+    ],
     "topLevel": true,
     "allAtoms": [
         {
@@ -18,13 +23,13 @@
         {
             "atomType": "Molecule",
             "name": "Shelf",
-            "x": 0.2486772486772487,
-            "y": 0.36768802228412256,
+            "x": 0.25,
+            "y": 0.3537604456824513,
             "uniqueID": 1724644623215,
             "ioValues": [
                 {
                     "name": "Wood Thickness",
-                    "ioValue": 10
+                    "ioValue": 17
                 }
             ],
             "topLevel": false,
@@ -40,8 +45,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.32275132275132273,
-                    "y": 0.4902506963788301,
+                    "x": 0.18584656084656084,
+                    "y": 0.25348189415041783,
                     "uniqueID": 1724644642151,
                     "ioValues": [
                         {
@@ -61,14 +66,62 @@
                     "y": 0.49860724233983283,
                     "uniqueID": 1724644720937,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.3148148148148148,
+                    "y": 0.47075208913649025,
+                    "uniqueID": 1724644807419,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724644642151
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 17
+                        }
+                    ]
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1724644642151,
+                    "ap2ID": 1724644807419
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap2Primary": false,
+                    "ap1ID": 1724644720937,
+                    "ap2ID": 1724644807419
+                }
+            ],
             "fileTypeVersion": 1,
             "compiledBom": {}
+        },
+        {
+            "atomType": "Input",
+            "name": "Wood Thickness",
+            "x": 0.013333333333333334,
+            "y": 0.6044568245125348,
+            "uniqueID": 1724644791354,
+            "ioValues": []
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Wood Thickness",
+            "ap2Primary": false,
+            "ap1ID": 1724644791354,
+            "ap2ID": 1724644623215
+        }
+    ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
     "compiledBom": {},
