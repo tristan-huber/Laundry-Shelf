@@ -1053,8 +1053,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.5185185185185185,
-            "y": 0.777158774373259,
+            "x": 0.4834656084656085,
+            "y": 0.7214484679665739,
             "uniqueID": 1724645097526,
             "ioValues": [
                 {
@@ -1107,6 +1107,41 @@
                     "ioValue": 76
                 }
             ]
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.38293650793650796,
+            "y": 0.9136490250696379,
+            "uniqueID": 1724646572265,
+            "ioValues": [
+                {
+                    "name": "Wood Thickness",
+                    "ioValue": 17
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1724646572166,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Wood Thickness",
+                    "x": 0.013333333333333334,
+                    "y": 0.6044568245125348,
+                    "uniqueID": 1724646572093,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [
@@ -1130,6 +1165,13 @@
             "ap2Primary": false,
             "ap1ID": 1724644791354,
             "ap2ID": 1724644914121
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Wood Thickness",
+            "ap2Primary": false,
+            "ap1ID": 1724644791354,
+            "ap2ID": 1724646572265
         },
         {
             "ap1Name": "Geometry",
