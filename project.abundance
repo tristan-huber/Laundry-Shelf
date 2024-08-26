@@ -23,8 +23,8 @@
         {
             "atomType": "Molecule",
             "name": "Shelf",
-            "x": 0.31746031746031744,
-            "y": 0.26740947075208915,
+            "x": 0.32341269841269843,
+            "y": 0.27298050139275765,
             "uniqueID": 1724644623215,
             "ioValues": [
                 {
@@ -50,8 +50,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.18584656084656084,
-                    "y": 0.25348189415041783,
+                    "x": 0.18518518518518517,
+                    "y": 0.2590529247910863,
                     "uniqueID": 1724644642151,
                     "ioValues": [
                         {
@@ -127,8 +127,8 @@
         {
             "atomType": "Molecule",
             "name": "Cross Brace",
-            "x": 0.3115079365079365,
-            "y": 0.7214484679665739,
+            "x": 0.3141534391534392,
+            "y": 0.7353760445682451,
             "uniqueID": 1724644914121,
             "ioValues": [
                 {
@@ -144,7 +144,12 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1724644914247,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1724645036531
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -157,27 +162,112 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.2969576719576719,
-                    "y": 0.5571030640668524,
+                    "x": 0.19113756613756613,
+                    "y": 0.37325905292479106,
                     "uniqueID": 1724644974080,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 1771.65
                         },
                         {
                             "name": "y length",
-                            "ioValue": 10
+                            "ioValue": 17
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.3187830687830688,
+                    "y": 0.4651810584958217,
+                    "uniqueID": 1724645036531,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724644974080
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": -100
                         }
                     ]
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y length",
+                    "ap2Primary": false,
+                    "ap1ID": 1724644914780,
+                    "ap2ID": 1724644974080
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1724644974080,
+                    "ap2ID": 1724645036531
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1724645036531,
+                    "ap2ID": 1724644914247
+                }
+            ],
             "fileTypeVersion": 1,
-            "compiledBom": {}
+            "compiledBom": []
+        },
+        {
+            "atomType": "Join",
+            "name": "Assembly",
+            "x": 0.5330687830687831,
+            "y": 0.34261838440111425,
+            "uniqueID": 1724645069985,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 1724644623215
+                }
+            ],
+            "unionType": "Assembly"
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.4748677248677248,
+            "y": 0.7381615598885795,
+            "uniqueID": 1724645091219,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
         }
     ],
     "allConnectors": [
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 1724644623215,
+            "ap2ID": 1724645069985
+        },
         {
             "ap1Name": "number or geometry",
             "ap2Name": "Wood Thickness",
