@@ -1,12 +1,73 @@
 {
     "atomType": "Molecule",
-    "name": "Laundry Shelf",
+    "name": "Laundry-Shelf",
     "x": 0,
     "y": 0,
     "uniqueID": 1724644590225,
     "ioValues": [],
     "topLevel": true,
-    "allAtoms": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1724644615118,
+            "ioValues": []
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Shelf",
+            "x": 0.2486772486772487,
+            "y": 0.36768802228412256,
+            "uniqueID": 1724644623215,
+            "ioValues": [
+                {
+                    "name": "Wood Thickness",
+                    "ioValue": 10
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1724644622942,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.32275132275132273,
+                    "y": 0.4902506963788301,
+                    "uniqueID": 1724644642151,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 1771.65
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 812.8
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Wood Thickness",
+                    "x": 0.013333333333333334,
+                    "y": 0.49860724233983283,
+                    "uniqueID": 1724644720937,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
+        }
+    ],
     "allConnectors": [],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
