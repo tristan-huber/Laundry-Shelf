@@ -1392,8 +1392,8 @@
         {
             "atomType": "Molecule",
             "name": "Back Brace",
-            "x": 0.289021164021164,
-            "y": 0.11977715877437325,
+            "x": 0.28505291005291006,
+            "y": 0.08913649025069638,
             "uniqueID": 1724646994017,
             "ioValues": [
                 {
@@ -1418,9 +1418,58 @@
                     "y": 0.6044568245125348,
                     "uniqueID": 1724646993953,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.2751322751322751,
+                    "y": 0.42896935933147634,
+                    "uniqueID": 1724647017491,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 1771.65
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 17
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.40608465608465605,
+                    "y": 0.479108635097493,
+                    "uniqueID": 1724647046641,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1724647017491
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": -35
+                        }
+                    ]
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y length",
+                    "ap2Primary": false,
+                    "ap1ID": 1724646993953,
+                    "ap2ID": 1724647017491
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1724647017491,
+                    "ap2ID": 1724647046641
+                }
+            ],
             "fileTypeVersion": 1,
             "compiledBom": {}
         }
